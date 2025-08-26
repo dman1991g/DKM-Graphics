@@ -18,11 +18,39 @@
     <a class="active" href="contact-us.html">Contact us</a>
   </div>
   <img src="media\business logo.jpg" alt="DKM Graphics logo" width="300" height="300">
- <h1>Contact Us</h1>
- <p>If you have any questions or would like a quote, please feel free to reach out using one of the options below.</p>
- <p style="text-align:center;"><a href="https://www.facebook.com/DKMGraphics">Facebook</a> <br> Phone:(317)374-6297 <br> Email:<a href="mailto:DKMgraphics@gmail.com">DKMgraphics@gmail.com</a></p>
-  <br>
- <br>
+<form action="https://formsubmit.co/YOUR_GMAIL@gmail.com" method="POST" style="max-width:500px;margin:auto;padding:20px;border:1px solid #ddd;border-radius:8px;background:#f9f9f9;font-family:sans-serif;">
+  
+  <h2 style="text-align:center;">Contact Us</h2>
+
+  <!-- Name -->
+  <label style="display:block;margin-top:10px;">Your Name:</label>
+  <input type="text" name="name" required style="width:100%;padding:10px;margin-top:5px;border:1px solid #ccc;border-radius:4px;">
+
+  <!-- Email -->
+  <label style="display:block;margin-top:10px;">Your Email:</label>
+  <input type="email" name="email" required style="width:100%;padding:10px;margin-top:5px;border:1px solid #ccc;border-radius:4px;">
+
+  <!-- Phone -->
+  <label style="display:block;margin-top:10px;">Phone Number:</label>
+  <input type="tel" name="phone" style="width:100%;padding:10px;margin-top:5px;border:1px solid #ccc;border-radius:4px;">
+
+  <!-- Subject -->
+  <label style="display:block;margin-top:10px;">Subject:</label>
+  <input type="text" name="subject" style="width:100%;padding:10px;margin-top:5px;border:1px solid #ccc;border-radius:4px;">
+
+  <!-- Message -->
+  <label style="display:block;margin-top:10px;">Your Message:</label>
+  <textarea name="message" rows="5" required style="width:100%;padding:10px;margin-top:5px;border:1px solid #ccc;border-radius:4px;"></textarea>
+
+  <!-- Hidden options -->
+  <input type="hidden" name="_captcha" value="false"> <!-- disables captcha -->
+  <input type="hidden" name="_template" value="table"> <!-- nicer email layout -->
+
+  <!-- Submit -->
+  <button type="submit" style="margin-top:15px;width:100%;padding:12px;background:#007BFF;color:white;border:none;border-radius:4px;font-size:16px;cursor:pointer;">
+    Send Message
+  </button>
+</form>
   <footer>
     <div class="social-icons">
       <a href="https://www.facebook.com/DKMGraphics" target="_blank"><img src="media/facebook-icon.png" alt="Facebook" height="100" width="100"></a>
